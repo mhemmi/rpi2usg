@@ -6,10 +6,10 @@ Connect a Raspberry Pi with a Unifi USG 3P
 #using connect.sh 
 1. download
 2. edit in connect.sh 
-VPN_SERVER_IP='<your server ip>'
-VPN_IPSEC_PSK='<your PSK>'
-VPN_USER='<your username>'
-VPN_PASSWORD='<your password>'
+VPN_SERVER_IP='\<your server ip>'
+VPN_IPSEC_PSK='\<your PSK>'
+VPN_USER='\<your username>'
+VPN_PASSWORD='\<your password>'
 
 3. sudo sh connect.sh
 4. wget -qO- ifconfig.co #shows now your new IP via VPN
